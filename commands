@@ -1,0 +1,9 @@
+python3 -m venv venv
+. venv/bin/activate 
+pip install -r requirements.txt
+
+# For some mac users (if the pip install fails):
+export C_INCLUDE_PATH=/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers
+pip install -r requirements.txt
+
+pytest
