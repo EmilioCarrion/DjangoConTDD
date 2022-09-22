@@ -6,4 +6,5 @@ pip install -r requirements.txt
 export C_INCLUDE_PATH=/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/Headers
 pip install -r requirements.txt
 
+cd ecommerce
 pytest

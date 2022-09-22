@@ -43,7 +43,7 @@ def test_substracts_quantity(client):
     # Act (post a quantity substraction to the 50776 sku)
     # Assert (check status_code and response of the new cart state)
     pass
-    
+
 
 @pytest.mark.skip
 def test_removes_product_when_substracting_greater_quantity_than_the_carts_has(client):
@@ -59,4 +59,3 @@ def test_does_nothing_when_product_does_not_exists(client):
     # Act (substract any quantity to any sku)
     # Assert (check status_code and response of the new cart state)
     pass
-
